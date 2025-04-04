@@ -1,0 +1,175 @@
+#login-form {
+  width: 400px;
+  max-width: 100%;
+  margin: 50px auto;
+  background-color: lightblue;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  font-family: "Poppins", sans-serif;
+}
+
+#login-form h1 {
+  text-align: center;
+  margin: 0;
+  padding: 20px 0;
+  font-size: 28px;
+  font-weight: bold;
+  color: white;
+}
+
+#login-form form {
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  font-family: "Poppins", sans-serif;
+}
+
+#login-form form label {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 14px;
+  color: gray;
+  font-family: "Poppins", sans-serif;
+}
+
+#login-form form input[type="text"],
+#login-form form input[type="password"] {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  font-size: 16px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+}
+
+#login-form form input[type="submit"] {
+  width: 100%;
+  padding: 12px;
+  background-color: dodgerblue;
+  border: none;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
+}
+
+#login-form form input[type="submit"]:hover {
+  background-color: deepskyblue;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+/* General container for the Home component *//* Global styles for components *//* Global styles for components */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f9;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+  flex-direction: column; /* Allow stacking of elements vertically */
+  padding: 20px;
+}
+
+h2 {
+  color: #333;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+/* Container for each component */
+.container {
+  max-width: 800px;
+  width: 100%;
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+}
+
+/* Align buttons on the left and fix size */
+.button-container {
+  margin: 15px 0;
+  display: flex;
+  justify-content: flex-start; /* Align buttons to the left */
+}
+
+.action-button {
+  padding: 14px 30px; /* Fix the padding for the button size */
+  font-size: 1.2rem;   /* Consistent font size */
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s; /* Only transition background color */
+  margin-right: 10px; /* Space between buttons */
+  width: auto; /* Ensures the button doesn't change its width */
+  height: 45px; /* Fixed height */
+}
+
+.action-button:hover {
+  background-color: #2980b9;  /* Darker shade on hover */
+}
+
+.action-button:active {
+  background-color: #21618c; /* Even darker shade when clicked */
+}
+
+/* Inbox/Sent tables - Remove borders */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+}
+
+table th, table td {
+  padding: 12px;
+  text-align: left;
+  /* Removed border */
+}
+
+table th {
+  background-color: #3498db;
+  color: white;
+}
+
+/* Input/textarea fields */
+input[type="text"], textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  font-size: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+textarea {
+  resize: vertical;
+  min-height: 150px;
+}
+
+/* Form submit button */
+button[type="submit"] {
+  padding: 14px 30px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+  background-color: #2980b9;
+}
